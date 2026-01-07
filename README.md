@@ -1,4 +1,4 @@
-# ext-php-rs-experimental-vs18
+# ext-php-rs
 
 [![Crates.io](https://img.shields.io/crates/v/ext-php-rs)](https://lib.rs/ext-php-rs)
 [![docs.rs](https://img.shields.io/docsrs/ext-php-rs/latest)](https://docs.rs/ext-php-rs)
