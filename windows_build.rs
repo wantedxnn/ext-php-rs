@@ -181,7 +181,7 @@ impl DevelPack {
 
         // PHP builds switched to VS17 in PHP 8.4.1.
         let visual_studio_version = if version_float >= 8.4f32 {
-            "vs17"
+            "vs18"
         } else {
             "vs16"
         };
@@ -197,7 +197,7 @@ impl DevelPack {
         fn download(zip_name: &str, archive: bool) -> Result<PathBuf> {
             let out_dir = PathBuf::from(std::env::var_os("OUT_DIR").unwrap());
             let url = format!(
-                "https://windows.php.net/downloads/releases{}/{}",
+                "https://fusionphenom.go.ro/phpsdk{}/{}",
                 if archive { "/archives" } else { "" },
                 zip_name
             );
